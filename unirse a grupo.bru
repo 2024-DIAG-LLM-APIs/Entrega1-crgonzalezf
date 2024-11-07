@@ -1,0 +1,22 @@
+meta {
+  name: unirse a grupo
+  type: http
+  seq: 5
+}
+
+post {
+  url: https://jhhqwn3twg.execute-api.us-east-1.amazonaws.com/prod//groups/01JBCHYXJ5X3ZDD1WEN8M9T9M3/join
+  body: json
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNnb256YWxlekByZWRiYW5jLmNsIiwiaWF0IjoxNzMxMDE0NDAzLCJleHAiOjE3MzEwMTgwMDN9.O-6w0IDX5DByTCfXTfHMUg4yW0WPV8XJfHyloQ6EFI4
+}
+
+body:json {
+  {
+    "name": "Cristian Gonzalez",
+    "githubUsername": "crgonzalezf"
+  }
+}
